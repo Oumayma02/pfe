@@ -1,0 +1,9 @@
+variable "ssh_key" {
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDRm3o/6eimIyMlNbbLx2315Jwqf/4JCztxxk61mHO82wdhQHad2eq0rOOEK05orB6PiIZtkeKT8qiU6eFBKP7QDntnd+PCGJa7ZN52bYWcpluTvel5pERmno7IJIFauRcm5Q1QF9+tmDnP3eMqzE9dp3jvRl82MAm7KlO2ePn01AvwI6QbLpK9Vl09A7tevHH4iVCLBdR4cDsamtbz6zhKp8aeosih4IoEJcVp+Iqomcg69ruugUnBdbqHqkOZvrJcZRVkXSKAztvdJQDvIeEjPD8Kgar1qKtsL+QXuvWNXZSwH2+0CT3TuKWAS+foX7D1FwvIYjFHf0fWRXuBftaAk0aedDWUu00bcetrJKXIfazmVL4xDrAO8BymvIiRNsu8BBDxY9Ri1BBMorXh/jXQcoGIMkyUH9DpBFko++zzEl+Kg7ltzGgED7yiWMHy9gK6kAD2b18RvC9z1MJFVpxg/13xN04KWvKgBWs/TH2UTN+ILSTVp/LQIHCL43cWbUqBsj6bvPXoXb00605idyDFTDOpUSi9ScdWx32uz1waaPKENAhdZfCOr61W/Srr/aSPSDB4/04vvQjFwPH/9vdN63b4xnGlThxfUvbIr2Yya8qU5ERHINUKjjKYSgiHLfBF8UQALnICB+hLmrOyLAjNZ3sSNrschwe/jLJUEBG06Q== asus@LAPTOP-QD54FBHF"
+}
+variable "proxmox_host" {
+    default = "pve"
+}
+variable "template_name" {
+    default = "ouma "
+}
